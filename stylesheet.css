@@ -63,3 +63,53 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  body {
+    background-color: var(--clr-main);
+
+    display: grid;
+    place-content: center;
+  }
+  .container__main {
+    padding: 2rem;
+  }
+
+  .card__main {
+    background-color:var(--clr-secondary);
+    font-family: var(--ff-outfit);
+    color: var(--clr-text-gray);
+
+    max-width: 375px;
+    display: grid;
+    place-content: center;
+    border-radius: 5%;
+  }
+
+  .card__img {
+    padding: 1rem;
+    border-radius: 10%
+  }
+  
+  .card__body {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .card__body p {
+    padding: 1rem;
+    font-size: 0.935rem;
+    line-height: 1.1rem;
+    word-spacing: 1px;
+  }
+  .card__title {
+    color: var(--clr-text-dark);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .attribution {
+    color: var(--clr-text-dark);
+    font-family: var(--ff-outfit);
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
