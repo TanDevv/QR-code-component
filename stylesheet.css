@@ -1,3 +1,16 @@
+:root {
+    --clr-main: hsl(212, 45%, 89%);
+    --clr-secondary:  hsl(0, 0%, 100%);
+
+    --clr-text-dark: hsl(218, 44%, 22%);
+    --clr-text-gray: hsl(220, 15%, 55%);
+
+    --fs-paragraph: 15px;
+    --ff-outfit: 'Outfit', sans-serif;
+    --fw-700: 700;
+    --fw-400: 400; 
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
