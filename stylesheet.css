@@ -64,15 +64,20 @@
     isolation: isolate;
   }
 
+/* General Styling */
+
   body {
     background-color: var(--clr-main);
 
     display: grid;
     place-content: center;
   }
+
   .container__main {
     padding: 2rem;
   }
+
+/* Card Styling */
 
   .card__main {
     background-color:var(--clr-secondary);
@@ -101,6 +106,8 @@
     line-height: 1.1rem;
     word-spacing: 1px;
   }
+
+  /* Desktop Responsiveness */
   
   @media (min-width: 422px) {
     .card__body p {
