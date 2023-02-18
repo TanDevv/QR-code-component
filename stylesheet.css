@@ -101,10 +101,28 @@
     line-height: 1.1rem;
     word-spacing: 1px;
   }
+  
+  @media (min-width: 422px) {
+    .card__body p {
+      margin-bottom: 0.2rem;
+      font-size: 1.1rem;
+      line-height: 1.3rem;
+    }
+  }
+
   .card__title {
     color: var(--clr-text-dark);
     font-size: 1.4rem;
     line-height: 1.8rem;
+  }
+
+  @media (min-width: 422px) {
+    .card__title {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 0 1rem 0;
+    word-spacing: 1px;
+    }
   }
 
   .attribution {
@@ -112,4 +130,11 @@
     font-family: var(--ff-outfit);
     margin-top: 1rem;
     font-size: 0.8rem;
+  }
+
+  @media (min-width: 422px) {
+    .attribution {
+      font-size: 0.9rem;
+    }
+  
   }
